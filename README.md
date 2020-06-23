@@ -10,15 +10,15 @@ Supervisor: Kevin Duh.
 - To run simple HTTP server: `cd frontend && python -m http.server 8888`.
 <br>
 
+![image](https://user-images.githubusercontent.com/49181231/85414036-90fe3980-b5a6-11ea-81e8-613417d4d472.png)
 
-![alt text](demo_en.png)
-
 <br>
 <br>
 <br>
 <br>
 
-![alt text](demo_ja.png)
+![image](https://user-images.githubusercontent.com/49181231/85414018-8a6fc200-b5a6-11ea-81ec-16fb9396e790.png)
+
 
 <br>
 
