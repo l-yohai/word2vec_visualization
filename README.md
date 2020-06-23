@@ -10,15 +10,22 @@ Supervisor: Kevin Duh.
 - To run simple HTTP server: `cd frontend && python -m http.server 8888`.
 <br>
 
-![image](https://user-images.githubusercontent.com/49181231/85414036-90fe3980-b5a6-11ea-81e8-613417d4d472.png)
+
+cd frontend && python -m http.server 8888
+
+localhost:8888
+
+
+
+
+![alt text](demo_en.png)
 
 <br>
 <br>
 <br>
 <br>
 
-![image](https://user-images.githubusercontent.com/49181231/85414018-8a6fc200-b5a6-11ea-81ec-16fb9396e790.png)
-
+![alt text](demo_ja.png)
 
 <br>
 
@@ -46,6 +53,7 @@ Supervisor: Kevin Duh.
 	+ Generate your Word2Vec Model using `model = gensim.models.Word2Vec(tokenized_sentences, size=200)`
 	+ Save your Word2Vec Model using `model.wv.save_word2vec_format('model_name.bin',binary=True)`
 	+ For the Cosine distance metric: use the script `create_database_cosine.py`.
+
 	+ For the Euclidean distance metric: use the script `create_database_euclidean.py`, and copy the file `keyedvectors.py` to Gensim library's location, e.g., `/Library/Python/3.5/site-packages/gensim/models`. In this new implementation, the new method `most_similar_euclidean()` is included to calculate the distance between pairs of words/phrases by the Euclidean metric.
 	+ Edit each script directing "model_path" to your saved model.
 	+ Place the generated json output into the `frontend/data` dir, replacing and removing all other data if you wish to work exclusively with your own model.
