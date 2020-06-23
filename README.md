@@ -17,7 +17,7 @@ localhost:8888
 
 <br>
 <br>
-My Model
+My Model (From germany corpus)
 <br>
 
 ![image](https://user-images.githubusercontent.com/49181231/85415146-ee46ba80-b5a7-11ea-8ab6-e7fd50784e58.png)
