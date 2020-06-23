@@ -16,8 +16,9 @@ cd frontend && python -m http.server 8888
 localhost:8888
 
 <br>
-More Info.
-visit https://yohai.tistory.com/72
+If you want more information, visit 
+<br>
+https://yohai.tistory.com/72
 <br>
 My Model (From germany corpus)
 <br>
